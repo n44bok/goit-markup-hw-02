@@ -1,11 +1,38 @@
-body {
-  background-color: #ffffff;
+
+
+.list {
+  list-style: none;
+}
+
+.logo:hover {
+  color: #2196f3;
+}
+
+/* site nav */
+.site-nav .link {
   color: #212121;
 }
 
-.ul {
-  list-style: none;
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
 }
+
+/* site contacts */
+.site-contacts .link {
+  color: #212121;
+
+.site-contacts:hover {
+  color: #2196f3;
+}
+
+/* секции */
+
+.section-post {
+  color: #E5E5E5;
+}
+
+
 
 /* синий цвет #2196F3 */
 
