@@ -17,11 +17,12 @@ body {
 
 /*---------- лого -------------*/
 
-.logo-header {
+.logo-header,
+.logo-footer {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 1.14;
   text-decoration: none;
   letter-spacing: 0.03em;
 }
@@ -38,7 +39,7 @@ body {
 .site-nav .link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: inherit;
   text-decoration: none;
@@ -58,7 +59,7 @@ body {
 .site-contacts .link-header {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   text-decoration: none;
@@ -74,7 +75,7 @@ body {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.6;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
@@ -96,7 +97,7 @@ body {
 .section-post {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
@@ -117,7 +118,7 @@ body {
 .features-list-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color);
@@ -125,7 +126,7 @@ body {
 
 .features-list-text {
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
@@ -136,14 +137,14 @@ body {
 .team-list-title {
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
 .team-list-text {
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
@@ -156,7 +157,7 @@ body {
 
 .city {
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   font-style: normal;
   letter-spacing: 0.03em;
   color: #ffffff;
@@ -165,9 +166,10 @@ body {
 .footer-link-mail,
 .footer-link-tel {
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   font-style: normal;
+  text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
 
