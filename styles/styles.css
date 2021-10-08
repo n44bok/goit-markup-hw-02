@@ -3,11 +3,12 @@
   --accent-color: #2196f3;
   --secondary-text-color: #757575;
   --white-text-color: #ffffff;
+  --background-white-color: #e5e5e5;
+  --background-grey-color: #f5f4fa;
 }
 
 body {
   font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
 }
 
 .list {
@@ -16,12 +17,13 @@ body {
 
 /*---------- лого -------------*/
 
-.logo {
+.logo-header {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 
 .web {
@@ -40,6 +42,7 @@ body {
   letter-spacing: 0.02em;
   color: inherit;
   text-decoration: none;
+  background-color: #ffffff;
 }
 
 .site-nav .link:hover,
@@ -77,24 +80,15 @@ body {
   color: #ffffff;
 }
 
-/*---------- button -------------*/
-.button {
+.button-hero {
   font-family: inherit;
   font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
   text-decoration: none;
   cursor: pointer;
-}
-
-.button.primary {
   color: #ffffff;
-  background-color: var(--accent-color);
-}
-
-.button.secondary {
-  background-color: #f5f4fa;
-  color: #212121;
+  background-color: #2196f3;
 }
 
 /*---------- features -------------*/
@@ -103,6 +97,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
@@ -123,12 +118,15 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--primary-text-color);
 }
 
 .features-list-text {
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
@@ -139,11 +137,14 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 
 .team-list-text {
   font-size: 16px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
@@ -157,6 +158,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
+  letter-spacing: 0.03em;
   color: #ffffff;
 }
 
@@ -164,6 +166,7 @@ body {
 .footer-link-tel {
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -193,7 +196,10 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 
 /*---------- works section -------------*/
@@ -202,10 +208,12 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--primary-text-color);
 }
 
 .works-list-text {
   line-height: 1.88;
   font-size: 16px;
+  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
