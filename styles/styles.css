@@ -32,6 +32,7 @@ body {
 }
 
 .studio-black {
+  font-family: Raleway, sans-serif;
   color: #212121;
 }
 
@@ -153,6 +154,7 @@ body {
 
 .studio-white {
   color: #ffffff;
+  font-family: Raleway, sans-serif;
 }
 
 .city {
