@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
+    <title>Портфолио</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
 
@@ -37,66 +35,64 @@
 
 
     <main>
-       <div class="filter">
-            <h1>Portfolio</h1>
-            <ul class="filter list">
-                <li><button type="button" class="button secondary">Все</button></li>
-                <li><button type="button" class="button secondary">Веб-сайты</button></li>
-                <li><button type="button" class="button secondary">Приложения</button></li>
-                <li><button type="button" class="button secondary">Дизайн</button></li>
-                <li><button type="button" class="button secondary">Маркетинг</button></li>
+       <section class="filter">
+            <h2 class="filter-title hidden">Portfolio</h2>
+            <ul class="filter-title-list list">
+                <li><button type="button" class="filter-button">Все</button></li>
+                <li><button type="button" class="filter-button">Веб-сайты</button></li>
+                <li><button type="button" class="filter-button">Приложения</button></li>
+                <li><button type="button" class="filter-button">Дизайн</button></li>
+                <li><button type="button" class="filter-button">Маркетинг</button></li>
             </ul>
-       </div>
-        
-       <div>
-           <ul class="work list">
+       
+            <ul class="works-list list">
             <li>
-                <h3 class="work-item">Технокряк</h3>
+                <h3 class="works-list-title">Технокряк</h3>
                 <img src="./images/технокряк.jpg" alt="технокряк" width="370" height="294">
-                <p class="text">Веб-сайт</p>
+                <p class="works-list-text">Веб-сайт</p>
             </li>
             <li>
-                <h3 class="work-item">Постер New Orlean vs Golden Star</h3>
+                <h3 class="works-list-title">Постер New Orlean vs Golden Star</h3>
                 <img src="./images/орлеан.jpg" alt="орлеан" width="370" height="294">
-                <p class="text">Дизайн</p>
+                <p class="works-list-text">Дизайн</p>
             </li>
             <li>
-                <h3 class="work-item">Ресторан Seafood</h3>
+                <h3 class="works-list-title">Ресторан Seafood</h3>
                 <img src="./images/seafood.jpg" alt="ресторан" width="370" height="294">
-                <p class="text">Приложение</p>
+                <p class="works-list-text">Приложение</p>
             </li>
             <li>
-                <h3 class="work-item">Проект Prime</h3>
+                <h3 class="works-list-title">Проект Prime</h3>
                 <img src="./images/наушники.jpg" alt="наушники" width="370" height="294">
-                <p class="text">Маркетинг</p>
+                <p class="works-list-text">Маркетинг</p>
             </li>
             <li>
-                <h3 class="work-item">Проект Boxes</h3>
+                <h3 class="works-list-title">Проект Boxes</h3>
                 <img src="./images/boxes.jpg" alt="коробки" width="370" height="294">
-                <p class="text">Приложение</p>
+                <p class="works-list-text">Приложение</p>
             </li>
             <li>
-                <h3 class="work-item" lang="en">Inspiration has no Borders</h3>
+                <h3 class="works-list-title" lang="en">Inspiration has no Borders</h3>
                 <img src="./images/монитор.jpg" alt="монитор" width="370" height="294">
-                <p class="text">Веб-сайт</p>
+                <p class="works-list-text">Веб-сайт</p>
             </li>
             <li>
-                <h3 class="work-item">Издание Limited Edition</h3>
+                <h3 class="works-list-title">Издание Limited Edition</h3>
                 <img src="./images/книга.jpg" alt="book" width="370" height="294">
-                <p class="text">Дизайн</p>
+                <p class="works-list-text">Дизайн</p>
             </li>
             <li>
-                <h3 class="work-item">Проект LAB</h3>
+                <h3 class="works-list-title">Проект LAB</h3>
                 <img src="./images/лаб.jpg" alt="lab" width="370" height="294">
-                <p class="text">Маркетинг</p>
+                <p class="works-list-text">Маркетинг</p>
             </li>
             <li>
-                <h3 class="work-item" lang="en">Growing Business</h3>
+                <h3 class="works-list-title" lang="en">Growing Business</h3>
                 <img src="./images/ноут.jpg" alt="notebook" width="370" height="294">
-                <p class="text">Приложение</p>
+                <p class="works-list-text">Приложение</p>
             </li>
            </ul>
-       </div>
+       </section>
 
     </main>
 
@@ -108,8 +104,8 @@
         </address>
     
         <address>
-            <a href="mailto:nfo@devstudio.com" class="footer-link">info@devstudio.com</a>
-            <a href="tel:+380961111111" class="footer-link">+38 096 111 11 11</a>
+            <a href="mailto:nfo@devstudio.com" class="footer-link-mail">info@devstudio.com</a>
+            <a href="tel:+380961111111" class="footer-link-tel">+38 096 111 11 11</a>
         </address>
     </footer>
 </body>
